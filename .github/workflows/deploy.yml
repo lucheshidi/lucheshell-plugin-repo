@@ -2,15 +2,9 @@ name: Build & Deploy DuckShell Plugins
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'src/**'
-  push:
-    branches: [ main ]
-    paths:
-      - 'src/**'
-      - 'sdk/**'
-      - '.github/workflows/deploy.yml'
 
 permissions:
   contents: write
