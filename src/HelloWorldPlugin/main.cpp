@@ -1,4 +1,4 @@
-#include "plugins_interface.h"
+#include "../sdk/plugins_interface.h"
 #include <iostream>
 #include <map>
 #include <vector>
